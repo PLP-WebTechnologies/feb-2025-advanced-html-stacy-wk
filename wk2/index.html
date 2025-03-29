@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Advanced HTML5 Elements and Forms</h2>
+
+    <!-- Ordered list with roman numerals -->
+    <h3>Ordered Lists</h3>
+    <ol type="i">
+        <li>Drake</li>
+        <li>Megan Thee Stallion</li>
+        <li>Jack Harlow</li>
+        <li>Brent Faiyaz</li>
+        <li>PartyNextDoor</li>
+    </ol>
+    <br>
+
+    <!-- External image from pexels.com -->
+    <h3>HTML Images</h3>
+    <img src="https://images.pexels.com/photos/31346411/pexels-photo-31346411/free-photo-of-mountain-goat-standing-on-rocky-cliff-in-alps.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="mountain-in-black-and-white" height="400" width="600"/>
+    <br><br>
+
+    <!-- Table of 5 contacts with: name, address, mobile and emails -->
+    <h3>HTML Tables</h3>
+    <table border = "2">
+        <caption>ADDRESS TABLE</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Emails</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Stacy Kamasu</td>
+                <td>P.O. BOX 20000</td>
+                <td>0798806156</td>
+                <td>kamaustacywaithera@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Providence Wairimu</td>
+                <td>P.O. BOX 24005</td>
+                <td>0712373640</td>
+                <td>thukuprovi@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Sheila Mutuku</td>
+                <td>P.O. BOX 39999</td>
+                <td>0719428826</td>
+                <td>rayasheila@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Nelly Dali</td>
+                <td>P.O. BOX 24000</td>
+                <td>0115550706</td>
+                <td>wandoghonellydali@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Mark Kantet</td>
+                <td>P.O. BOX 10000</td>
+                <td>0745927345</td>
+                <td>kantetmarks@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+    <!-- Registration form -->
+    <form action="" method="">
+        <h3>Register</h3>
+        
+        <label for="full-name">Full Name:  </label>
+        <input type="text" id="full-name" name="full-name" placeholder="Enter your full name" required>
+        <br><br>
+        
+        <label for="email">Email:  </label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+        
+        <label for="password">Password:  </label>
+        <input type="password" id="password" name="password" placeholder="Create a password" required minlength="10">
+        <br><br>
+        
+        <label for="D-O-B">Date of Birth:  </label>
+        <input type="date" id="D-O-B" name="D-O-B" required>
+        <br><br>
+        
+        <label for="country">Country</label>
+        <select id="country" name="country" required>
+            <option value="">--Select your country</option>
+            <option value="Kenya">Kenya</option>
+            <option value="Tanzania">Tanzania</option>
+            <option value="Uganda">Uganda</option>
+            <option value="other">Other</option>
+        </select>
+        <br><br>
+        
+        <label>Gender</label><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+        <br><br>
+     
+        <label>Tech Stack</label><br>
+        <input type="checkbox" id="javascript" name="tech-stack" value="javascript">
+        <label for="tech">Javascript</label>
+        <input type="checkbox" id="python" name="tech-stack" value="python">
+        <label for="python">Python</label>
+        <input type="checkbox" id="C" name="tech-stack" value="C">
+        <label for="C">C</label>
+        <input type="checkbox" id="Ruby" name="tech-stack" value="Ruby">
+        <label for="Ruby">Ruby</label>
+        <input type="checkbox" id="C#" name="tech-stack" value="C#">
+        <label for="C#">C#</label>
+        <br><br>
+        
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
